@@ -8,9 +8,8 @@ public class Main {
         System.out.println("Suma: " + (x + y));
         System.out.println("Resta: " + (x - y));
         
-        // Manejo de la división con verificación de división por cero
         if (y != 0) {
-            System.out.println("División: " + ((double) x / y)); // Usar casting para obtener resultado decimal
+            System.out.println("División: " + ((double) x / y)); 
         } else {
             System.out.println("División por cero no es posible.");
         }
